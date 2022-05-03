@@ -29,24 +29,14 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form2));
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.lblEmailFunc = new System.Windows.Forms.Label();
             this.lblSenhaFunc = new System.Windows.Forms.Label();
             this.txtEmailFunc = new System.Windows.Forms.TextBox();
             this.txtSenhaFunc = new System.Windows.Forms.TextBox();
             this.btnCadastrarFunc = new System.Windows.Forms.Button();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(1, 1);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(100, 50);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
             // 
             // lblEmailFunc
             // 
@@ -89,33 +79,42 @@
             this.btnCadastrarFunc.Text = "Cadastrar";
             this.btnCadastrarFunc.UseVisualStyleBackColor = true;
             // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
+            this.pictureBox2.Location = new System.Drawing.Point(2, 0);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(115, 50);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox2.TabIndex = 8;
+            this.pictureBox2.TabStop = false;
+            // 
             // Form2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.AppWorkspace;
             this.ClientSize = new System.Drawing.Size(333, 262);
+            this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.btnCadastrarFunc);
             this.Controls.Add(this.txtSenhaFunc);
             this.Controls.Add(this.txtEmailFunc);
             this.Controls.Add(this.lblSenhaFunc);
             this.Controls.Add(this.lblEmailFunc);
-            this.Controls.Add(this.pictureBox1);
             this.Name = "Form2";
             this.Text = "Cadstro de Funcionário";
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
         }
 
         #endregion
-
-        private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label lblEmailFunc;
         private System.Windows.Forms.Label lblSenhaFunc;
         private System.Windows.Forms.TextBox txtEmailFunc;
         private System.Windows.Forms.TextBox txtSenhaFunc;
         private System.Windows.Forms.Button btnCadastrarFunc;
+        private System.Windows.Forms.PictureBox pictureBox2;
     }
 }

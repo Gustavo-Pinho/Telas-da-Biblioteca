@@ -36,6 +36,9 @@
             this.livroToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.editoraToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.autorToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.gêneroToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -59,7 +62,10 @@
             this.cadastrarToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.alunoToolStripMenuItem,
             this.funcionárioToolStripMenuItem,
-            this.livroToolStripMenuItem});
+            this.livroToolStripMenuItem,
+            this.editoraToolStripMenuItem,
+            this.autorToolStripMenuItem,
+            this.gêneroToolStripMenuItem});
             this.cadastrarToolStripMenuItem.Name = "cadastrarToolStripMenuItem";
             this.cadastrarToolStripMenuItem.Size = new System.Drawing.Size(69, 20);
             this.cadastrarToolStripMenuItem.Text = "Cadastrar";
@@ -67,19 +73,19 @@
             // alunoToolStripMenuItem
             // 
             this.alunoToolStripMenuItem.Name = "alunoToolStripMenuItem";
-            this.alunoToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.alunoToolStripMenuItem.Size = new System.Drawing.Size(137, 22);
             this.alunoToolStripMenuItem.Text = "Aluno";
             // 
             // funcionárioToolStripMenuItem
             // 
             this.funcionárioToolStripMenuItem.Name = "funcionárioToolStripMenuItem";
-            this.funcionárioToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.funcionárioToolStripMenuItem.Size = new System.Drawing.Size(137, 22);
             this.funcionárioToolStripMenuItem.Text = "Funcionário";
             // 
             // livroToolStripMenuItem
             // 
             this.livroToolStripMenuItem.Name = "livroToolStripMenuItem";
-            this.livroToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.livroToolStripMenuItem.Size = new System.Drawing.Size(137, 22);
             this.livroToolStripMenuItem.Text = "Livro";
             // 
             // pictureBox1
@@ -101,6 +107,24 @@
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox2.TabIndex = 2;
             this.pictureBox2.TabStop = false;
+            // 
+            // editoraToolStripMenuItem
+            // 
+            this.editoraToolStripMenuItem.Name = "editoraToolStripMenuItem";
+            this.editoraToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.editoraToolStripMenuItem.Text = "Editora";
+            // 
+            // autorToolStripMenuItem
+            // 
+            this.autorToolStripMenuItem.Name = "autorToolStripMenuItem";
+            this.autorToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.autorToolStripMenuItem.Text = "Autor";
+            // 
+            // gêneroToolStripMenuItem
+            // 
+            this.gêneroToolStripMenuItem.Name = "gêneroToolStripMenuItem";
+            this.gêneroToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.gêneroToolStripMenuItem.Text = "Gênero";
             // 
             // Cadastro
             // 
@@ -132,5 +156,8 @@
         private System.Windows.Forms.ToolStripMenuItem livroToolStripMenuItem;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.ToolStripMenuItem editoraToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem autorToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem gêneroToolStripMenuItem;
     }
 }
